@@ -1,0 +1,554 @@
+
+.card-body {
+  font-family: poppins;
+  color:#414a52;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.navbar {
+    transition: background-color 0.5s ease;
+}
+
+.navbar.scrolled {
+    background-color: white !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+
+
+.custom-navbar {
+    padding: 5px 52px;
+  background-color: transparent;
+  height: 71px;
+  max-height: 71px;
+  line-height: 71px;
+  }
+
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+      border-bottom-width: 1px;
+  }
+
+  .navbar-inner {
+   background: transparent;
+   background-color: transparent;
+}
+
+.navbar {
+
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+  
+  .custom-logo {
+    font-family: acme, sans-serif;
+    font-size: 1.5rem; /* Ensure the size is equivalent for both */
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .custom-nav-item {
+    font-weight: 550;
+    color: #033588;
+    font-family: poppins, sans-serif;
+    font-size: 1rem; /* Ensure the size is equivalent for both */
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
+  }
+
+  .navbar-nav {
+    display: flex;
+    gap: 0.8em!important;
+  }
+  
+  
+  .custom-nav-item:hover {
+    color: #00a8ff; /* Change to desired hover color */
+    
+  
+  }
+
+  .kjlp {
+    position: sticky;
+    
+            
+  }
+
+
+
+
+  .hero-section {
+    position: relative;
+    width: 100%;
+    height: 560px;
+    background-attachment: fixed;
+    animation: fadeIn 2s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.5);
+
+  }
+
+
+
+  @media (max-width: 991.98px) {
+    .hero-section {
+        background-image: url('/3-park-banner.jpg'); /* Background image for md and below */
+    }
+}
+
+ 
+
+#background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+   
+   
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+ .h4t {
+    color: #778698;
+    text-align: left;
+    font-family: acme;
+    font-size: 20px;
+ }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+
+  .hero-heading {
+    font-size: 7rem;
+    font-weight: bold;
+    font-family: "Pacifico", "cursive";
+  }
+
+  .hero-subheading {
+    font-size: 2rem;
+    margin-top: 1rem;
+    font-family: Acme;
+  }
+ 
+ 
+  .hero-button {
+    margin-top: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1.25rem;
+    font-family: poppins;
+    font-weight: 500;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+    
+  }
+
+  .hero-button:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .image-container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Dark overlay */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.overlay-content {
+    text-align: center;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
+    opacity: 0.6;
+    background: #033588;
+    transition: opacity 0.3s ease;
+}
+
+.card-img-top:hover {
+   opacity: 0.8;
+   cursor: pointer;
+   border: none;
+   
+}
+
+
+    .form-group {
+        display: inline-block; 
+        margin-bottom: 0;
+        font-weight: normal;
+        text-align: center;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        background-image: none;
+        border: 1px solid transparent;
+        white-space: nowrap;
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        border-radius: 4px;
+        vertical-align: middle;
+    }
+
+
+
+.moil {
+    padding: 10px;
+    width: 200px ;
+}
+
+
+
+.is-centered {
+    color: white;
+   padding-top: 90px;
+   padding-bottom: 30px;
+    font-family: poppins;
+}
+
+.section-signup {
+    background-image: url('/assets/lupaimg\ \(2\).png');
+}
+
+.card {
+    border: none;
+    border-radius: none;
+
+}
+
+
+  footer a {
+    color: #999;
+    text-decoration:none;
+  }
+  
+  footer a:hover, footer a:focus {
+    color: #aaa;
+    text-decoration:none;
+    border-bottom:1px dotted #999;
+  }
+
+  
+  
+  footer .form-control {
+      background-color: #1f2022;
+      box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+      border: none;
+      resize: none;
+      color: #d1d2d2;
+      padding: 0.7em 1em;
+  }
+  
+  .footer {
+    padding: 20px 0;
+}
+
+.ft {
+    font-size: 15px;
+   
+
+}
+
+.list-inline-item {
+    margin: 0 10px; /* Adjust spacing between items as needed */
+}
+
+.footer {
+    background-color: #0b0a31;
+}
+
+.underline {
+    width: 600px;
+    height: 1px;
+    background-color: #fff;
+    margin: 10px auto 0;
+    margin-left: 40px;
+}
+
+  /* .hero-button::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 50%;
+    opacity: 0.8;
+  }
+
+  .hero-button:hover::before {
+    transform: translate(-50%, -50%) scale(1);
+  }
+   */
+  .col {
+    color: #fff;
+  letter-spacing: 2px;
+  font-weight: 700;
+  text-align: center;
+  }
+  
+  .olplo { 
+   text-align: left;
+   padding-top: 20px;
+   font-family: acme;
+   font-size: 25px;
+  }
+
+  .btn {
+    margin-top: 2rem;
+    padding: 1rem 5rem;
+    font-size: 1.25rem;
+    border: solid;
+    background-color: transparent;
+    color: #033588;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+  
+  }
+
+  .head4 {
+    font-size: 60px;
+  }
+
+  .para66 {
+    font-family: acme;
+    font-size: 20px;
+  }
+
+  .carousel-caption {
+    margin-bottom: 110px;
+    padding-top: 200px;
+  }
+
+  .btn:hover {
+    background-color: #033588;
+    border-color: #033588;
+  }
+
+ 
+
+  .tor {
+    text-align: left;
+    
+  }
+
+.h2 {
+  color: black;
+}
+  .row {
+    margin-left: -15px;
+    margin-right: -15px;
+    background-color: #04111c;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+
+.h3 {
+    color: white;
+}
+
+.pop {
+  text-align: center;
+  align-items: center;
+  padding-left: 15px;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.hero-section-2 {
+    padding-top: 10px;
+    margin-bottom: 40px;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('/assets/Untitled\ design\(7\).png') no-repeat center center/cover;
+    animation: fadeIn 2s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.hero-subheading-2 {
+    
+    font-size: 10px;
+    font-weight: bold;
+    font-family: 'Acme';font-size: 20px;
+}
+
+.hero-heading33 {
+    font-size: 60px;
+    font-family: 'Acme';font-size: 70px;
+}
+
+.hero-heading-pol {
+   font-size: 10px;
+   font-family: 'Acme';font-size: 20px;
+}
+
+.img009 {
+    height: 40px;
+  width: 100%;
+  margin-bottom: 20px;
+  background: url(../img/hr.png) no-repeat center center;
+    background-size: auto;
+  background-size: auto 40px;
+  border: 0;
+}
+
+
+    .video-container {
+      padding: 20px;
+    }
+
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px; /* Equal margin between images */
+      padding: 20px;
+    }
+
+    .image-grid img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  
+    .container {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+      }
+  
+      .block {
+        width: 60px;
+        height: 300px;
+        flex: 1;
+        margin: 0 10px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        text-align: center;
+        transition: transform 0.3s ease;
+        position: relative;
+      }
+
+      .header {
+        background-image: url("/3-park-banner.jpg");
+        height: 100vh;
+        min-height: 400px;
+        background-size: cover;
+      }
+  
+      .block:first-child {
+        margin-left: 0;
+      }
+  
+      .block:last-child {
+        margin-right: 0;
+      }
+  
+      .block .icon {
+        font-size: 3rem;
+        margin-bottom: 20px;
+        margin-top: 80px;
+      }
+
+     
+    
+  
+      .block .description {
+        opacity: 0;
+        max-height: 0;
+        overflow: hidden;
+        transition: opacity 0.3s ease, max-height 0.3s ease;
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        right: 20px;
+        text-align: center;
+      }
+  
+      .block:hover {
+        transform: scale(1.05);
+        
+      }
+  
+      .block:hover .description {
+        opacity: 1;
+        max-height: 200px; /* Adjust based on content height */
+      }
+
+     .fa-brands {
+        width: 60px;
+        font-size: 25px;
+        margin-top: 20px;
+       
+     }
